@@ -1,0 +1,86 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="w1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>CrossFood Bliss - HOME</title> 
+</head>
+<body>
+
+<div class="navbar">
+  <a class="active" href="WT Page 1.html"> Home</a> 
+  <a href="vegan.html"> Vegan</a> 
+  <a href="diet.html"> Diet Special</a> 
+  <a href="allergies.html"> Allergen Free</a>
+  <a href="non vegan.html"> Non Vegan</a>
+</div>
+	<table id="heading">
+		<tr>
+			<th>
+				<p class="font"><div id="welcome">Welcome to<br><div id="cross"><u>CrossFood Bliss</u></div></div></p>
+				<p class="serif">
+				<marquee behavior="alternate" loop="infinite" bgcolor="teal">Please select any one of the options below and feel free to browse through your favourite dishes!!!!</marquee></p>
+			</th>
+		</tr>
+	</table>
+<table cellpadding="30px">
+	<tr>
+		<td id="cell1">
+			<a href="vegan.html" target="_blank"><img src="vegan.png"></a>
+		</td>
+		<td rowspan="2" id="cell2"><img src="logo.png" width="100%" height="50%">
+		</td>
+		<td id="cell3">
+			<a href="diet.html" target="_blank"><img src="diet.jpg" width="325px" height="225px"></a>
+		</td>
+	</tr>
+	<tr>
+		<td id="cell4"><a href="allergies.html" target="_blank"><img src="allegrens.jpg" width="325px" height="225px"></a></td>
+		<td id="cell5">
+			<a href="non vegan.html" target="_blank"><img src="nonveg.jpeg" width="325px" height="225px"></a>
+		</td>
+	</tr>
+</table>
+<div class="icon-bar">
+  <a href="https://www.fb.com" class="facebook">
+  	<img src="fblogo.png" height="90px" width="90px">
+  </a> 
+  <a href="https://www.gmail.com" class="google">
+  	<img src="google1.png" height="90px" width="90px">
+  </a> 
+   <a href="https://www.twitter.com" class="twitter">
+  	<img src="down11.png" height="90px" width="90px">
+  </a> 
+
+</div>
+<button class="open-button" onclick="openForm()">Feedback Form</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h3><u>Login</u></h3>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="Feedback"><b>Feedback</b></label>
+    <textarea name="message" rows="10" cols="20" placeholder="Feedback"></textarea><br>
+    
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script
+
+</body>
+</html>

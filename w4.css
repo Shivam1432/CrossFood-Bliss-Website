@@ -1,0 +1,138 @@
+body
+{
+	background-image: url('allergens.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+#cross
+{font-size: 75px;
+ color: DarkOrange;
+ font-family: 'Forte',Comic Sans MS;
+ text-shadow:5px 5px 10px black;}
+
+#heading
+{
+    background-color: black;
+    height: 50px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    width:100%;
+    border-color: black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  50%   {background-color:LightSlateGray; left:0px; top:0px;}
+  100%  {background-color:Brown; left:200px; top:0px;}
+}
+#h
+{
+	text-align: center;
+	color:white;
+}
+.tab {
+   width: 100%;
+  overflow: auto;
+  margin-top: 0px;
+  border: 1px solid #ccc;
+  background-color: lightgreen;
+  font-family:"Britain Sans FB",Comic Sans MS,serif;
+  font-weight:900;
+  animation: myAnimation 12s linear 1s 1 forwards;
+}
+@keyframes myAnimation {
+  33% {
+    background-color: navajowhite;
+  }
+  66% {
+    background-color: mistyrose;
+  }
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: RoyalBlue;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: Tomato;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: lavender;
+  font-size: 18px;
+  font-family: 'Arial',Comic Sans MS;
+  font-weight:100;
+}
+table
+{
+	width: 830px;
+	margin-right: 10px;
+	margin-left: 275px;
+	margin-bottom: 10px;
+	border-spacing: 10px;
+	border: 5px;
+	border-color: ;
+	border-style: groove;
+	padding:20px;
+	background-color: white;
+}
+#cell1
+{
+	width:267px;
+	height:400px;
+	background-color: silver;
+}
+#cell2
+{
+	height:400px;
+	width: 1200px;
+	background-color: lavender;
+}
+#cell3
+{
+	height:400px;
+	width: 267px;
+	background-color: gray;
+}
+#cell4
+{
+	height:400px;
+	width: 1200px;
+	background-color: lightblue;
+}
+#des
+{
+	background-color: white;
+	margin-left: 900px;
+	width: 610px;
+}
+#option
+{font-size: 25px;
+ color: peachpuff;
+ font-family: 'Arial',Forte,Comic Sans MS;
+ text-align: center ;}

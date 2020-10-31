@@ -1,0 +1,92 @@
+body
+{
+	background-image: url('veganbg.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+#cross
+{font-size: 75px;
+ color: DarkOrange;
+ font-family: 'Forte',Comic Sans MS;
+ text-shadow:5px 5px 10px black;}
+
+table,td,tr
+{
+	width: 1480px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-spacing: 15px;
+}
+#cell1
+{
+	width:267px;
+	height:400px;
+	background-color: silver;
+
+}
+#cell2
+{
+	height:400px;
+	width: 1200px;
+	background-color: lavender;
+}
+#cell3
+{
+	height:400px;
+	width: 267px;
+	background-color: gray;
+}
+#cell4
+{
+	height:400px;
+	width: 1200px;
+	background-color: lightblue;
+}
+#heading
+{
+    background-color: black;
+    height: 10%;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    width:100%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  50%   {background-color:LightSlateGray; left:0px; top:0px;}
+  100%  {background-color:Brown; left:200px; top:0px;}
+}
+#h
+{
+	text-align: center;
+	color:white;
+}
+#des
+{
+    width:50%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 20%
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+}
+#desh
+{
+	text-align: center;
+}
+.change
+{font-size: 30px;
+ color: MediumVioletRed;
+ font-family: 'Comic Sans MS',Forte;
+ text-decoration:underline;
+ text-align: center ;}
